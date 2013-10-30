@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HiDevLab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen" />
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style type="text/css">
+        #carousel-example-generic {
+            width: 850px;
+            margin: 0 auto;
+        }
+
+        .carousel-caption {
+            width: 100%;
+            background-color: rgba(64, 64, 64, 0.9);
+            margin-left: -170px;
+            margin-bottom: -20px;
+        }
+        
+        .carousel-control {
+            z-index: 1000;
+        }
+
+        .carousel-indicators {
+            display: none;
+        }
+
+        h2 {
+            padding-top: 65px;
+            margin-top: -50px;
+        }
+
+        .contacts {
+            list-style: none;
+            padding: 0;
+            }
+
+            .contacts li {
+                float: left;
+                width: 33%;
+                }
+
+        footer {
+            margin-top: 100px;
+            text-align: center;
+            color: grey;
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class=navbar-inner>
+            <div class="container">
+                <a class="navbar-brand" href="#about">HiDevLab</a>
+                <ul class="nav navbar-nav pull-right">
+                    <li class=""><a href="#about">About us</a></li>
+                    <li class=""><a href="#portfolio">Portfolio</a></li>
+                    <li class=""><a href="#open-source">Open source</a></li>
+                    <li class=""><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 41px;">
+        <h2 id="about">About us</h2>
+        <p>The name of our company "HiDevLab" stands for "High qualitative Development Laboratory". We are dedicated to build perfect software for our customers. <strong>How we can do it?</strong> We hire self-motivated developers and teach them to solve the problem and write clean code. No matter how our employees look like, which religion to profess or when and where exactly they work. The only important things that developers love his work, can solve the trouble, not create, to be open for new knowledge, to listen to the client and to find and advice the best way to achieve client's goals.</p>
+        <p>The goal of our company is providing our clients with quality services and complete products, but we saving the ability to keep it's personality and professional growing for each employee. Our company is not big and that allows us to have proper approach for every customer and employee. We always open to be flexible about our schedules depending of our employees and customers needs. The main aim of our activities is to do the things well and desirable in time.</p>
+        <h3>How we work</h3>
+        <p>We prefer to use open source technologies in our activities and we provide the full development infrastructure for you: tracking system, repositories, test sandboxes. We know most popular solutions and can choose what you want.</p>
+        <p>The key technologies we prefer use at HiDevLab are: Python, Django, Twisted, Celery, Postgresql cause with these solid and powerful solutions we can develop faster with perfect quality. Of course, we strictly follow the public standards such as HTML, CSS or XMPP because we believe that free interconnection between devices and services are the future of the Internet.
+        <p>We developed various projects from administrative tools for servers with console line interface to online realtime strategies. Some projects you can see in portfoliobelow</p>
+        <h2 id="portfolio">Portfolio</h2>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <div id="carousel-example-generic" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/collector1.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Collector</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/collector4.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Collector</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Traffic1.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Traffic</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Traffic3.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Traffic</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Traffic4.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Traffic</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/trafficInst1.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Traffic Instruction</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/trafficInst3.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Traffic Instruction</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Guzzle1.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Guzzle</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/Guzzle2.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Guzzle</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/fatbox2.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Fatbox</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/fatbox4.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>Fatbox</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="icon-next"></span>
+                 </a>
+            </div>
+        <h2 id="open-source">Open Source</h2>
+        <p>We love to use opensource in our practise. Furthermore, we are active
+        members of the opensource community. You can check our group on github
+        (надо создать группу и запилить тут ссылку). Also, we are active members
+        of XMPP (здесь ссылка на xmpp.org) involving work on standards (XEP-277,
+        XEP-115, contributing to other standards, like this
+        (http://xmpp.org/extensions/xep-0047.html#ack)), contributing to Gajim
+        (http://gajim.org), ejabberd
+        (https://support.process-one.net/browse/EJAB-1452?jql=project = EJAB AND
+        reporter = currentUser()). We are trying to work on the bleeding edge of
+        XMPP technologies involving PubSub services: Live Jabber experimental
+        blogging platform, XEP-277. Jingle and WebRTC, fresh approach to XMPP
+        libraries (twilix and jslix on github).
+
+        Our employees also conributes to a wide spectrum of open source projects
+        whole the time they work with them: from the linux kernel to gentoo
+        GNU/Linux distro.
+
+        We love open source!</p>
+        <h2 id="contacts">Contacts</h2>
+        <ul class="contacts">
+            <li><strong>Andrew Kuryachenko</strong><br> CEO <br> skype: andrew.kuryachenko<br> jabber/email: <a href="mailto:andrew.kuryachenko@hidevlab.com">andrew.kuryachenko@hidevlab.com</a></li>
+            <li><strong>Sergey Dobrov</strong> <br> CTO <br> skype: sergey.dobrov <br> jabber/email: <a href="mailto:sergey.dobrov@hidevlab.com">sergey.dobrov@hidevlab.com</a></li>
+            <li><strong>Andrey Lotarev</strong> <br> Sales manager <br> skype: andrew.lotarev <br> jabber/email: <a href="mailto:andrew.lotarev@hidevlab.com">andrew.lotarev@hidevlab.com</a></li>
+        </ul>
+    </div>
+    <footer><p>Designed based on <a href="http://getbootstrap.com/" >Bootstrap</a> by HiDevLab company. 2013</p></footer>
+</body>
+</html>
