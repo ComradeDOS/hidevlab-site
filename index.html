@@ -20,31 +20,36 @@
         .content {
             margin-top: 67px;
         }
-        
-        #carousel-example-generic {
-            width: 850px;
-            margin: 0 auto;
-        }
-
-        .carousel-caption {
-            width: 100%;
-            background-color: rgba(64, 64, 64, 0.9);
-            margin-left: -170px;
-            margin-bottom: -20px;
-        }
-        
-        .carousel-control {
-            z-index: 1000;
-        }
-
-        .carousel-indicators {
-            display: none;
-        }
 
         h2 {
             padding-top: 65px;
             margin-top: -50px;
         }
+
+        #carousel-example-generic {
+            width: 850px;
+            margin: 0 auto;
+        }
+            .carousel-caption {
+                width: 100%;
+                background-color: rgba(64, 64, 64, 0.9);
+                margin-left: -170px;
+                margin-bottom: -20px;
+                height: 106px;
+                transition: height 0.7s;
+                -webkit-transition: height 0.7s;
+            }
+                .carousel .item:hover .carousel-caption {
+                    height: 500px;
+                }
+            
+            .carousel-control {
+                z-index: 1000;
+            }
+    
+            .carousel-indicators {
+                display: none;
+            }
 
         .contacts {
             list-style: none;
